@@ -24,7 +24,7 @@ def assign_rooms(speakers)
   return speakerList
 end 
 
-def printer
+def printer(attendees)
   batch_badge_creator(names).each do |badge|
     puts badge
   end
